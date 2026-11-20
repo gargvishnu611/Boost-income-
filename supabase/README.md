@@ -10,6 +10,7 @@ The canonical versioned database migrations live in `migrations/`. They were app
 - `20261120134214_aarvix_member_workflows_and_demo_content.sql`
 - `20261120134628_contact_message_identity_integrity.sql`
 - `20261120134902_review_and_revisions_workflow.sql`
+- `20261120135649_server_verified_learning_quizzes.sql`
 
 ## Security design
 
