@@ -19,8 +19,8 @@ The Pages URL is not considered live until GitHub Pages is enabled in repository
 - Member profile stored in Postgres, not browser local storage.
 - Live task feed (currently five non-cash practice tasks).
 - Task applications and work submissions through server-side database functions.
-- Server-side daily check-in and non-cash XP ledger.
-- Member dashboard reading XP, contribution credits, submissions, payable records and crypto reward records from the database.
+- Server-side daily check-in and course quiz completion with non-cash XP awards.
+- Member dashboard reading XP, contribution credits, course progress, submissions, payable records and crypto reward records from the database.
 - Contact form writes to a private support inbox in Postgres.
 - Business workspaces and draft campaigns/tasks.
 - Role-gated submission review and support inbox surfaces.
