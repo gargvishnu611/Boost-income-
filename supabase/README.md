@@ -11,6 +11,7 @@ The canonical versioned database migrations live in `migrations/`. They were app
 - `20261120134628_contact_message_identity_integrity.sql`
 - `20261120134902_review_and_revisions_workflow.sql`
 - `20261120135649_server_verified_learning_quizzes.sql`
+- `20261120140053_public_funded_campaign_visibility.sql`
 
 ## Security design
 
