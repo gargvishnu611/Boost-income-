@@ -3,6 +3,9 @@ name: Deploy AARVIX to GitHub Pages
 on:
   push:
     branches: ["main"]
+    paths:
+      - "index.html"
+      - ".github/workflows/deploy.yml"
   workflow_dispatch:
 
 permissions:
@@ -23,10 +26,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Configure and enable Pages
+      - name: Configure Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
       - name: Prepare static website
         run: |
           mkdir -p public
